@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#AuthPage, #WatchPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+}
+
+#AuthPage {
+  z-index: 1;
+}
+
+#WatchPage {
+  z-index: 0;
+}
